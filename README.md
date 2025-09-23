@@ -23,5 +23,29 @@ Run the app using Docker Compose:
 
 ```bash
 docker-compose up --build
+```
+Once the services are running, open your browser and go to:
 
-ddvsv
+```arduino
+http://localhost:5000
+```
+### 2. Create an Account
+Users must create an account to start interacting with the chatbot.
+
+### 3. Using the Chatbot
+
+Standard Chatbot: Ask questions without using RAG.
+
+Chatbot with RAG:
+
+Create a collection by uploading a PDF (must be in English).
+
+Give a meaningful name to the collection.
+
+Go to the RAG section, select the collection by name, and choose the conversation history you want to continue.
+
+---
+
+## Wishing You Success! 🎉
+
+I hope you enjoy using this chatbot and make the most out of its features. May your experiments with RAG, LangChain, and conversation history be insightful and fun. Good luck! 🚀
