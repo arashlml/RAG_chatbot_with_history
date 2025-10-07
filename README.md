@@ -16,8 +16,8 @@ A web-based chatbot application built using **FastAPI**, **Streamlit**, **LangCh
 ---
 
 ## How to Use
-
-### 1. Start the Application
+### 1. first complete the .env file 
+### 2. Start the Application
 
 Run the app using Docker Compose:
 
@@ -29,10 +29,10 @@ Once the services are running, open your browser and go to:
 ```arduino
 http://localhost:5000
 ```
-### 2. Create an Account
+### 3. Create an Account
 Users must create an account to start interacting with the chatbot.
 
-### 3. Using the Chatbot
+### 4. Using the Chatbot
 
 Standard Chatbot: Ask questions without using RAG.
 
@@ -49,3 +49,4 @@ Go to the RAG section, select the collection by name, and choose the conversatio
 ## Wishing You Success! 🎉
 
 I hope you enjoy using this chatbot and make the most out of its features. May your experiments with RAG, LangChain, and conversation history be insightful and fun. Good luck! 🚀
+
