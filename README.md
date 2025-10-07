@@ -37,6 +37,10 @@ Run the app using Docker Compose:
 ```bash
 docker-compose up --build
 ```
+
+**Troubleshooting Network Issues**:
+If you encounter an **Error 404** in the container when accessing APIs, try using a VPN. Preferably, connect to a server in a country not under UN sanctions to ensure stable connectivity. 😄🚀😂
+
 Once the services are running, open your browser and go to:
 
 ```arduino
@@ -62,5 +66,6 @@ Go to the RAG section, select the collection by name, and choose the conversatio
 ## Wishing You Success! 🎉
 
 I hope you enjoy using this chatbot and make the most out of its features. May your experiments with RAG, LangChain, and conversation history be insightful and fun. Good luck! 🚀
+
 
 
