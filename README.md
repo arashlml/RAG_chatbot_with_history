@@ -17,6 +17,19 @@ A web-based chatbot application built using **FastAPI**, **Streamlit**, **LangCh
 
 ## How to Use
 ### 1. first complete the .env file 
+The `.env` file is located in the `chatbot` folder of the project. You need to add the following environment variables to configure the LangChain and Grok APIs:
+
+```env
+LANGCHAIN_API_KEY=your_langchain_api_key_here
+LANGCHAIN_TRACING_V2=true
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+**Where to Find the API Keys**:
+- **LANGCHAIN_API_KEY**: Sign up at [LangChain](https://www.langchain.com/) and navigate to your account settings to generate an API key. Copy the key and replace `your_langchain_api_key_here` with it.
+- **GROQ_API_KEY**: Register at [Groq](https://groq.com/) to obtain a Grok API key. After logging in, find the API key in your account dashboard and replace `your_groq_api_key_here` with it.
+
+Ensure the `.env` file is saved in the `chatbot` folder before proceeding.
 ### 2. Start the Application
 
 Run the app using Docker Compose:
@@ -49,4 +62,5 @@ Go to the RAG section, select the collection by name, and choose the conversatio
 ## Wishing You Success! 🎉
 
 I hope you enjoy using this chatbot and make the most out of its features. May your experiments with RAG, LangChain, and conversation history be insightful and fun. Good luck! 🚀
+
 
